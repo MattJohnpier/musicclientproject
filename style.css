@@ -1,10 +1,28 @@
 body{
     background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 100%;
+     font-family: 'Luckiest Guy', cursive;
+
 }
+
+#head {
+    display:flex;
+    justify-content:center;
+}
+
+#content {
+    display:flex;
+    
+    text-align:center;
+}
+
 button{
     height:10px;
     width:60px;
     background-color:yellow;
     padding-bottom: 18px;
     border: solid yellow;
+      font-family: 'Luckiest Guy', cursive;
 }
